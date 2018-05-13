@@ -1,10 +1,10 @@
 # How to Start Rest API  - CLI
 
-1) import post_data_backup.sql 
+1) The first setup  import post_data_backup.sql , its is available in visual-meta -> post_data_backup.sql
     -- mysql -u "username"  -p  < post_data_backup.sql
     -- password 
-2)
-    
+2) Get the Java Code from :- https://github.com/rimmigill1987/visual-meta
+
 3) Install vmn - setup to install https://openiam.atlassian.net/wiki/spaces/IAMSUITEV3/pages/524742/Installing+Apache+Maven+on+Mac
 	and check mvn -version
 
@@ -20,7 +20,10 @@
 6)   Run the jar 
        java -jar target/visual-meta-0.0.1-SNAPSHOT.jar
        
-7) Open http://localhost:8080/api/ -- you will get welcome messagd        
+7) Open http://localhost:8080/api/ -- you will get welcome messagd  
+
+# For TestCases
+      com.visualmeta.test.UserPostControllerTest
        
 	
  
